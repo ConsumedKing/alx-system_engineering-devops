@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-#this script prints best school using while loop ten times and Hi
+#this script prints best school using while loop ten times and hi
 i=1
 while [[ $i -le 10 ]]
 do
-    if [ $i = 9 ]; then
+    if [ $i -eq 9 ]
+    then
+        echo "Best School"
         echo "Hi"
-        i=$((i+1))
-        continue
+    else
+        echo "Best School"
     fi
-    echo "Best School"
     i=$((i+1))
 done
