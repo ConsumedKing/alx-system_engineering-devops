@@ -2,6 +2,6 @@
 # prints Best School Ten Times
 i=0
 until [ $i -ge 10 ]; do
-    echo "Best Schoole"
+    echo "Best School"
     i=$((i+1))
 done
