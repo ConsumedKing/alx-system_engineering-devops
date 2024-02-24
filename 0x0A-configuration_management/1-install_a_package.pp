@@ -1,7 +1,7 @@
 #!/usr/bin/pup
 # puppet manifest to install flask 2.1
-
 package { 'flask':
   ensure   => '2.1.0',
   provider => 'pip3',
 }
+
