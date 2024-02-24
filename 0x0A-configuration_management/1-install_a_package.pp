@@ -1,4 +1,5 @@
-# puppet manifest to download flask 2.1
+#!/usr/bin/pup
+# puppet manifest to install flask 2.1
 
 package { 'flask':
   ensure   => '2.1.0',
