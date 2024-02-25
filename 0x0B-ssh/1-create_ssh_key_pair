@@ -1,2 +1,4 @@
-#!/usr/bin/bash
-ssh-keygen -b 4096 -p betty
+#!/usr/bin/env bash
+# ssh server create ssh key
+
+ssh-keygen -b 4096 -t rsa -P betty -f ~/.ssh/school
